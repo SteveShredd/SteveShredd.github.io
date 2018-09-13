@@ -904,6 +904,16 @@ p {
   font-family: Lato, sans-serif;
 }
 
+.contact_link {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  color: #fff;
+}
+
+.contact_link:hover {
+  color: hsla(0, 0%, 100%, .8);
+}
+
 html.w-mod-js *[data-ix="new-interaction-2"] {
   opacity: 0.48000000000000004;
   -webkit-transform: scale(0.93, 0.93);
